@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classification</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <a href="formula1.html" class="logo">
+        <span class="logo-text">Fanatic</span>
+        <span class="logo-f1">1</span>
+      </a>
+      <ul>
+        <li><a href="formula1.html">Home</a></li>
+        <li><a href="classification.html" class="active">Classification</a></li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-banner">
+      <h1>Classification</h1>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-team="all">Semua Tim</button>
+      <!-- tombol filter tim akan diisi dinamis oleh JS -->
+    </div>
+
+    <div id="car-list" class="card-container"></div>
+  </body>
+</html>

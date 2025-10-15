@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz F1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <a href="formula1.html" class="logo">
+        <span class="logo-text">Fanatic</span>
+        <span class="logo-f1">1</span>
+      </a>
+      <ul>
+        <li><a href="formula1.html">Home</a></li>
+        <li><a href="classification.html">Classification</a></li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="quiz.html" class="active">Quiz</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-banner">
+      <h1>Quiz F1</h1>
+    </div>
+
+    <div class="quiz-container">
+      <div style="text-align: left">
+        <small id="quiz-progress">Pertanyaan 1</small>
+        <p id="quiz-score">Skor: 0</p>
+      </div>
+      <h2 id="quiz-question" style="text-align: left"></h2>
+      <div id="quiz-options"></div>
+      <div class="quiz-footer">
+        <button id="next-btn" class="btn red" disabled>Berikutnya</button>
+      </div>
+    </div>
+  </body>
+</html>

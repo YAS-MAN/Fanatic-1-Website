@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fanatic F1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="logo">
+        <span class="logo-text">Fanatic</span>
+        <span class="logo-f1">1</span>
+      </a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="classification.html">Classification</a></li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        poster="assets/hero_poster.jpg"
+      >
+        <source src="assets/VID_HERO.mp4" type="video/mp4" />
+        Browser kamu tidak mendukung video.
+      </video>
+
+      <div class="hero-banner">
+        <h1>Fanatic <span class="digit-1">1</span></h1>
+      </div>
+
+      <div class="hero-content">
+        <h2 class="hero-subtitle">
+          Jelajahi dunia Formula <span class="digit-1">1</span>
+        </h2>
+        <div class="buttons">
+          <a href="classification.html" class="filter-btn active"
+            >Lihat Mobil F1 →</a
+          >
+          <a href="comparison.html" class="filter-btn">Bandingkan Mobil →</a>
+          <a href="quiz.html" class="filter-btn outline">Quiz F1 →</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

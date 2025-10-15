@@ -15,7 +15,8 @@ const cars = [
     championships: 8,
     acceleration: "0-100 km/h dalam 2.5 detik",
     aerodynamics: "Advanced downforce, enhanced DRS",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads with improved cooling",
     transmission: "8-speed semi-automatic with quick shift",
     fuelCapacity: "110 kg",
@@ -30,7 +31,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "950 mm",
-    description: "Terkenal dengan strategi agresif, aerodinamika mutakhir, dan kecemerlangan Max Verstappen, Red Bull mendefinisikan ulang dominasi di era baru Formula 1.",
+    description:
+      "Terkenal dengan strategi agresif, aerodinamika mutakhir, dan kecemerlangan Max Verstappen, Red Bull mendefinisikan ulang dominasi di era baru Formula 1.",
   },
   {
     name: "Red Bull RB19",
@@ -48,7 +50,8 @@ const cars = [
     championships: 8,
     acceleration: "0-100 km/h dalam 2.5 detik",
     aerodynamics: "High",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -63,7 +66,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "950 mm",
-    description: "Terkenal dengan strategi agresif, aerodinamika mutakhir, dan kecemerlangan Max Verstappen, Red Bull mendefinisikan ulang dominasi di era baru Formula 1.",
+    description:
+      "Terkenal dengan strategi agresif, aerodinamika mutakhir, dan kecemerlangan Max Verstappen, Red Bull mendefinisikan ulang dominasi di era baru Formula 1.",
   },
   {
     name: "Red Bull RB18",
@@ -81,7 +85,8 @@ const cars = [
     championships: 8,
     acceleration: "0-100 km/h dalam 2.6 detik",
     aerodynamics: "High",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -96,7 +101,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Terkenal dengan strategi agresif, aerodinamika mutakhir, dan kecemerlangan Max Verstappen, Red Bull mendefinisikan ulang dominasi di era baru Formula 1.",
+    description:
+      "Terkenal dengan strategi agresif, aerodinamika mutakhir, dan kecemerlangan Max Verstappen, Red Bull mendefinisikan ulang dominasi di era baru Formula 1.",
   },
   {
     name: "Ferrari SF-25",
@@ -113,7 +119,8 @@ const cars = [
     mainDrivers: "Charles Lecrec MC , Lewis Hamilton UK",
     acceleration: "0-100 km/h dalam 2.6 detik",
     aerodynamics: "Medium-High",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -128,7 +135,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Tim tertua dan paling ikonis di Formula 1, Ferrari mewujudkan hasrat, tradisi, dan pengejaran kecepatan tanpa henti, mewakili semangat balap Italia.",
+    description:
+      "Tim tertua dan paling ikonis di Formula 1, Ferrari mewujudkan hasrat, tradisi, dan pengejaran kecepatan tanpa henti, mewakili semangat balap Italia.",
   },
   {
     name: "Ferrari SF-24",
@@ -145,7 +153,8 @@ const cars = [
     mainDrivers: "Charles Lecrec MC , Carlos Sainz ES",
     acceleration: "0-100 km/h dalam 2.65 detik",
     aerodynamics: "Medium-High",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -160,7 +169,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Tim tertua dan paling ikonis di Formula 1, Ferrari mewujudkan hasrat, tradisi, dan pengejaran kecepatan tanpa henti, mewakili semangat balap Italia.",
+    description:
+      "Tim tertua dan paling ikonis di Formula 1, Ferrari mewujudkan hasrat, tradisi, dan pengejaran kecepatan tanpa henti, mewakili semangat balap Italia.",
   },
   {
     name: "Ferrari SF-23",
@@ -177,7 +187,8 @@ const cars = [
     mainDrivers: "Charles Lecrec MC , Carlos Sainz ES",
     acceleration: "0-100 km/h dalam 2.68 detik",
     aerodynamics: "Medium",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -192,7 +203,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Tim tertua dan paling ikonis di Formula 1, Ferrari mewujudkan hasrat, tradisi, dan pengejaran kecepatan tanpa henti, mewakili semangat balap Italia.",
+    description:
+      "Tim tertua dan paling ikonis di Formula 1, Ferrari mewujudkan hasrat, tradisi, dan pengejaran kecepatan tanpa henti, mewakili semangat balap Italia.",
   },
   {
     name: "Mercedes W16",
@@ -209,7 +221,8 @@ const cars = [
     mainDrivers: "George Russel UK , Kimi Antonelli IT",
     acceleration: "0-100 km/h dalam 2.6 detik",
     aerodynamics: "Medium-High",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -224,7 +237,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Kekuatan dominan di F1 modern, Mercedes dikenal karena keunggulan rekayasa, strategi presisi, dan rangkaian sukses era hibrida yang dipimpin oleh Lewis Hamilton dan Toto Wolff.",
+    description:
+      "Kekuatan dominan di F1 modern, Mercedes dikenal karena keunggulan rekayasa, strategi presisi, dan rangkaian sukses era hibrida yang dipimpin oleh Lewis Hamilton dan Toto Wolff.",
   },
   {
     name: "Mercedes W15",
@@ -241,7 +255,8 @@ const cars = [
     mainDrivers: "Lewis Hamilton UK , George Russel UK",
     acceleration: "0-100 km/h dalam 2.65 detik",
     aerodynamics: "Medium",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -256,7 +271,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Kekuatan dominan di F1 modern, Mercedes dikenal karena keunggulan rekayasa, strategi presisi, dan rangkaian sukses era hibrida yang dipimpin oleh Lewis Hamilton dan Toto Wolff.",
+    description:
+      "Kekuatan dominan di F1 modern, Mercedes dikenal karena keunggulan rekayasa, strategi presisi, dan rangkaian sukses era hibrida yang dipimpin oleh Lewis Hamilton dan Toto Wolff.",
   },
   {
     name: "Mercedes W14",
@@ -273,7 +289,8 @@ const cars = [
     mainDrivers: "Lewis Hamilton UK , George Russel UK",
     acceleration: "0-100 km/h dalam 2.68 detik",
     aerodynamics: "Medium",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -288,7 +305,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Kekuatan dominan di F1 modern, Mercedes dikenal karena keunggulan rekayasa, strategi presisi, dan rangkaian sukses era hibrida yang dipimpin oleh Lewis Hamilton dan Toto Wolff.",
+    description:
+      "Kekuatan dominan di F1 modern, Mercedes dikenal karena keunggulan rekayasa, strategi presisi, dan rangkaian sukses era hibrida yang dipimpin oleh Lewis Hamilton dan Toto Wolff.",
   },
   {
     name: "McLaren MCL39",
@@ -305,7 +323,8 @@ const cars = [
     mainDrivers: "Lando Norris UK , Oscar Piastri AU",
     acceleration: "0-100 km/h dalam 2.6 detik",
     aerodynamics: "Medium-High",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -320,7 +339,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Salah satu tim paling bersejarah di F1, McLaren menggabungkan inovasi dan warisan balap dengan fokus pada talenta muda serta desain berperforma tinggi yang berakar pada tradisi Inggris.",
+    description:
+      "Salah satu tim paling bersejarah di F1, McLaren menggabungkan inovasi dan warisan balap dengan fokus pada talenta muda serta desain berperforma tinggi yang berakar pada tradisi Inggris.",
   },
   {
     name: "McLaren MCL38",
@@ -337,7 +357,8 @@ const cars = [
     mainDrivers: "Lando Norris UK , Oscar Piastri AU",
     acceleration: "0-100 km/h dalam 2.65 detik",
     aerodynamics: "Medium",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -352,7 +373,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Salah satu tim paling bersejarah di F1, McLaren menggabungkan inovasi dan warisan balap dengan fokus pada talenta muda serta desain berperforma tinggi yang berakar pada tradisi Inggris.",
+    description:
+      "Salah satu tim paling bersejarah di F1, McLaren menggabungkan inovasi dan warisan balap dengan fokus pada talenta muda serta desain berperforma tinggi yang berakar pada tradisi Inggris.",
   },
   {
     name: "McLaren MCL60",
@@ -369,7 +391,8 @@ const cars = [
     mainDrivers: "Lando Norris UK , Oscar Piastri AU",
     acceleration: "0-100 km/h dalam 2.68 detik",
     aerodynamics: "Medium",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -384,7 +407,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Salah satu tim paling bersejarah di F1, McLaren menggabungkan inovasi dan warisan balap dengan fokus pada talenta muda serta desain berperforma tinggi yang berakar pada tradisi Inggris.",
+    description:
+      "Salah satu tim paling bersejarah di F1, McLaren menggabungkan inovasi dan warisan balap dengan fokus pada talenta muda serta desain berperforma tinggi yang berakar pada tradisi Inggris.",
   },
   {
     name: "Aston Martin AMR25",
@@ -401,7 +425,8 @@ const cars = [
     mainDrivers: "Fernando Alonso ES , Lance Stroll CA",
     acceleration: "0-100 km/h dalam 2.6 detik",
     aerodynamics: "Medium-High",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -416,7 +441,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Penantang bergaya yang berkembang pesat, memadukan identitas merek mewah dengan ambisi kompetitif, dipimpin oleh pengalaman Fernando Alonso dan visi untuk kemenangan di masa depan.",
+    description:
+      "Penantang bergaya yang berkembang pesat, memadukan identitas merek mewah dengan ambisi kompetitif, dipimpin oleh pengalaman Fernando Alonso dan visi untuk kemenangan di masa depan.",
   },
   {
     name: "Aston Martin AMR24",
@@ -433,7 +459,8 @@ const cars = [
     mainDrivers: "Fernando Alonso ES , Lance Stroll CA",
     acceleration: "0-100 km/h dalam 2.65 detik",
     aerodynamics: "Medium",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -448,7 +475,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Penantang bergaya yang berkembang pesat, memadukan identitas merek mewah dengan ambisi kompetitif, dipimpin oleh pengalaman Fernando Alonso dan visi untuk kemenangan di masa depan.",
+    description:
+      "Penantang bergaya yang berkembang pesat, memadukan identitas merek mewah dengan ambisi kompetitif, dipimpin oleh pengalaman Fernando Alonso dan visi untuk kemenangan di masa depan.",
   },
   {
     name: "Aston Martin AMR23",
@@ -465,7 +493,8 @@ const cars = [
     mainDrivers: "Fernando Alonso ES , Lance Stroll CA",
     acceleration: "0-100 km/h dalam 2.68 detik",
     aerodynamics: "Medium",
-    suspension: "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
+    suspension:
+      "Double wishbone dengan push-rod yang mengaktifkan inboard springs dan torsion bars; Double wishbone dengan pull-rod layout, disesuaikan untuk efisiensi aliran udara dari diffuser",
     brakes: "Carbon-carbon discs and pads",
     transmission: "8-speed semi-automatic",
     fuelCapacity: "110 kg",
@@ -480,7 +509,8 @@ const cars = [
     length: "5600 mm",
     width: "2000 mm",
     height: "960 mm",
-    description: "Penantang bergaya yang berkembang pesat, memadukan identitas merek mewah dengan ambisi kompetitif, dipimpin oleh pengalaman Fernando Alonso dan visi untuk kemenangan di masa depan.",
+    description:
+      "Penantang bergaya yang berkembang pesat, memadukan identitas merek mewah dengan ambisi kompetitif, dipimpin oleh pengalaman Fernando Alonso dan visi untuk kemenangan di masa depan.",
   },
 ];
 
@@ -496,7 +526,6 @@ const drivers = [
   { name: "Fernando Alonso", team: "Aston Martin", worldTitles: 2 },
   { name: "Lance Stroll", team: "Aston Martin", worldTitles: 0 },
 ];
-
 
 const quizQuestions = [
   {
@@ -596,7 +625,8 @@ const quizQuestions = [
     answer: "Rosso Corsa (Merah)",
   },
   {
-    question: "Siapa pembalap F1 pertama yang memenangkan balapan dengan mobil turbo?",
+    question:
+      "Siapa pembalap F1 pertama yang memenangkan balapan dengan mobil turbo?",
     options: [
       "Jean-Pierre Jabouille",
       "Alain Prost",
@@ -606,12 +636,14 @@ const quizQuestions = [
     answer: "Jean-Pierre Jabouille",
   },
   {
-    question: "Apa nama sistem keselamatan yang diperkenalkan pada 2018 untuk melindungi kepala pembalap?",
+    question:
+      "Apa nama sistem keselamatan yang diperkenalkan pada 2018 untuk melindungi kepala pembalap?",
     options: ["Halo", "Shield", "Aeroscreen", "Canopy"],
     answer: "Halo",
   },
   {
-    question: "Siapa pembalap Indonesia pertama yang mengikuti sesi latihan bebas F1?",
+    question:
+      "Siapa pembalap Indonesia pertama yang mengikuti sesi latihan bebas F1?",
     options: [
       "Rio Haryanto",
       "Sean Gelael",
@@ -641,7 +673,8 @@ const quizQuestions = [
     answer: "Giuseppe Farina",
   },
   {
-    question: "Berapa kecepatan pit stop tercepat yang pernah dicatat dalam F1?",
+    question:
+      "Berapa kecepatan pit stop tercepat yang pernah dicatat dalam F1?",
     options: ["1.82 detik", "2.05 detik", "1.91 detik", "2.10 detik"],
     answer: "1.82 detik",
   },
@@ -656,7 +689,8 @@ const quizQuestions = [
     answer: "Spa-Francorchamps",
   },
   {
-    question: "Apa nama teknologi yang memungkinkan mobil F1 menghasilkan downforce dari lantai mobil?",
+    question:
+      "Apa nama teknologi yang memungkinkan mobil F1 menghasilkan downforce dari lantai mobil?",
     options: ["Ground Effect", "Diffuser", "Venturi Tunnels", "Floor Aero"],
     answer: "Ground Effect",
   },
@@ -671,7 +705,8 @@ const quizQuestions = [
     answer: "Fernando Alonso",
   },
   {
-    question: "Berapa kapasitas tangki bahan bakar maksimum pada mobil F1 modern?",
+    question:
+      "Berapa kapasitas tangki bahan bakar maksimum pada mobil F1 modern?",
     options: ["110 kg", "100 kg", "120 kg", "105 kg"],
     answer: "110 kg",
   },

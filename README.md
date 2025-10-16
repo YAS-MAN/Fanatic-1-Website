@@ -4,7 +4,6 @@ Situs mini bertema Formula 1 dengan empat halaman utama:
 **Home**, **Classification**, **Comparison**, dan **Quiz**.
 
 - Live: https://yas-man.github.io/Fanatic-1-Website/
-- Repo: (isi otomatis oleh GitHub)
 
 ## Fitur
 

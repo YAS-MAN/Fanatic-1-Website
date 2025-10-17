@@ -6,11 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const comparison = document.getElementById("comparison-result");
   const quizQuestion = document.getElementById("quiz-question");
   const quizOptions = document.getElementById("quiz-options");
-  const nextBtn = document.getElementById("next-btn");
+  let nextBtn = document.getElementById("next-btn");
   const scoreText = document.getElementById("quiz-score");
   const progressText = document.getElementById("quiz-progress");
   const detailContainer = document.getElementById("car-detail");
 
+  // ======= STATISTIC CODE FUNCTION =======
   // Fungsi untuk menghitung perbandingan statistik antara dua mobil
   function compareCarStats(car1, car2) {
     // Ekstrak nilai numerik dari string (misalnya "350 km/h" menjadi 350)
@@ -392,6 +393,21 @@ document.addEventListener("DOMContentLoaded", () => {
     score = 0;
     shuffledQuestions = shuffleQuestions(quizQuestions);
     if (scoreText) scoreText.textContent = "Skor: 0";
+
+    // Reset tampilan quiz container
+    quizQuestion.textContent = "";
+    quizOptions.innerHTML = "";
+
+    // Reset tampilan footer untuk menampilkan tombol next
+    const quizFooter = document.querySelector(".quiz-footer");
+    quizFooter.innerHTML = "";
+    loadQuiz;
+
+    // Reset progress text
+    if (progressText) {
+      progressText.textContent = `Pertanyaan 1 dari ${shuffledQuestions.length}`;
+    }
+
     loadQuiz();
   }
 
@@ -516,7 +532,6 @@ document.addEventListener("DOMContentLoaded", () => {
       quizOptions.appendChild(btn);
     });
   }
-
   // ====== DETAIL PAGE ======
   if (detailContainer) {
     const params = new URLSearchParams(window.location.search);
@@ -536,6 +551,25 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </div>
         </div>
+        
+        <div class="driver-section">
+          <h2>Drivers</h2>
+          <div class="driver-cards">
+            <div class="driver-card">
+              <img src="${car.driver1Image || ""}" alt="${
+        car.driver1 || "Driver 1"
+      }">
+              <h3>${car.driver1 || "Driver 1"}</h3>
+            </div>
+            <div class="driver-card">
+              <img src="${car.driver2Image || ""}" alt="${
+        car.driver2 || "Driver 2"
+      }">
+              <h3>${car.driver2 || "Driver 2"}</h3>
+            </div>
+          </div>
+        </div>
+        
         <div class="detail-specs">
           <h2>Spesifikasi Teknis</h2>
           <ul>
@@ -571,7 +605,9 @@ document.addEventListener("DOMContentLoaded", () => {
           <h2>Teknologi</h2>
           <ul>
             <li><b>Aerodinamika</b><span>${car.aerodynamics}</span></li>
-            <li><b>Suspensi</b><span>${car.suspension}</span></li>
+            <li><b>Suspensi</b><span class="suspension-style">${
+              car.suspension
+            }</span></li>
             <li><b>Sistem Rem</b><span>${car.brakes}</span></li>
           </ul>
           

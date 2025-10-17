@@ -11,7 +11,7 @@
   <body>
     <nav>
       <a href="index.html" class="logo">
-        <span class="logo-text">Fanatic</span>
+        <span class="logo-text"><span class="red-f">F</span>anatic</span>
         <span class="logo-f1">1</span>
       </a>
       <ul>
@@ -27,11 +27,17 @@
     </div>
 
     <div class="quiz-container">
-      <div style="text-align: left">
-        <small id="quiz-progress">Pertanyaan 1</small>
-        <p id="quiz-score">Skor: 0</p>
+      <div class="quiz-stats-container">
+        <div class="quiz-stat-box">
+          <div id="quiz-progress" class="quiz-stat-text">Pertanyaan 1</div>
+        </div>
+        <div class="quiz-stat-box">
+          <div id="quiz-score" class="quiz-stat-text">Skor: 0</div>
+        </div>
       </div>
-      <h2 id="quiz-question" style="text-align: left"></h2>
+      <div class="quiz-question-container">
+        <h2 id="quiz-question"></h2>
+      </div>
       <div id="quiz-options"></div>
       <div class="quiz-footer">
         <button id="next-btn" class="btn red" disabled>Berikutnya</button>
